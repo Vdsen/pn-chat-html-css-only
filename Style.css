@@ -1,0 +1,77 @@
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+.code-block {
+    display: none;
+    font-size: small;
+}
+
+.flex-child:first-child {
+    flex: 2;
+    margin-right: 10px;
+    margin-top:9px;
+    background-color: rgb(249, 249, 249);
+    flex-direction:column;
+    max-height: 510px;
+    height:510px;
+    overflow:auto;
+} 
+
+@media (min-width: 768px) {
+    .code-block {
+        display: block;
+    }
+}
+
+html * {
+    font-family: 'italic';
+}
+
+input {
+    width: 100%;
+    padding: 6px 15px 6px 15px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    font-size: medium;
+}
+
+
+
+.messageYou {
+    width: 90%;
+    padding: 6px 20px;
+    margin: 8px;
+    background: rgb(83,226,53);
+background: linear-gradient(90deg, rgba(83,226,53,1) 7%, rgba(92,235,95,1) 15%, rgba(52,237,105,1) 37%, rgba(70,236,139,1) 50%, rgba(96,245,141,1) 66%, rgba(127,242,150,1) 79%, rgba(182,235,157,1) 96%);
+    float: right;
+}
+
+.messageThem {
+    width: 90%;
+    padding: 6px 20px;
+    margin: 8px;
+    background-color: gainsboro;
+    border-style: solid;
+    background: rgb(255,0,0);
+background: linear-gradient(90deg, rgba(255,0,0,1) 14%, rgba(0,152,255,1) 24%, rgba(0,31,252,1) 37%, rgba(223,0,255,1) 50%, rgba(69,69,69,1) 66%, rgba(226,255,0,1) 81%, rgba(255,201,0,1) 94%);
+    float: left;
+}
+
+.youText {
+    float: right;
+}
+
+.messageTime {
+    font-size: x-small;
+    float: right;
+}
+
+body{
+  height: 100%;
+  font-style: bold;
+}
